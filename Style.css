@@ -1,0 +1,95 @@
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fb;
+    color: #333333;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background-color: #d63384;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Sections */
+section {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    color: #d63384;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f4c2d7;
+    padding-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Bible verse */
+blockquote {
+    margin-top: 15px;
+    padding: 15px;
+    border-left: 4px solid #d63384;
+    background-color: #fff0f6;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 22px;
+    }
+}
